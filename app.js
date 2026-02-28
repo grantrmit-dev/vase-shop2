@@ -2,7 +2,7 @@ const vases = [
   {
     id: 1, name: 'Aero Minimal', style: 'minimal', material: 'PLA', basePrice: 32,
     colors: ['White','Black','Sand'], badge: 'Bestseller',
-    image: 'https://images.pexels.com/photos/1804035/pexels-photo-1804035.jpeg?auto=compress&cs=tinysrgb&w=600&h=520&fit=crop'
+    image: 'images/aero-minimal.jpg'
   },
   {
     id: 2, name: 'Helix Bloom', style: 'spiral', material: 'PETG', basePrice: 48,
