@@ -17,7 +17,7 @@ const vases = [
   {
     id: 4, name: 'Coral Flow', style: 'organic', material: 'Resin', basePrice: 74,
     colors: ['Pearl','Rose','Smoke'], badge: 'Premium',
-    image: 'https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&w=600&h=520&fit=crop'
+    image: 'images/coral-flow.jpg'
   },
   {
     id: 5, name: 'Facet Tower', style: 'geometric', material: 'PETG', basePrice: 56,
