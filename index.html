@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VaseCraft Studio — 3D Printed Vases</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-brand">VaseCraft Studio</div>
+    <button class="cart-btn" id="cartToggle">
+      <span class="cart-icon">🛒</span>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Handcrafted by Algorithms</h1>
+      <p>Bespoke 3D-printed vases — choose your shape, material, and colour.</p>
+      <a href="#catalog" class="hero-cta">Shop the Collection</a>
+    </div>
+  </section>
+
+  <section class="filters-bar" id="catalog">
+    <select id="styleFilter">
+      <option value="all">All Styles</option>
+      <option value="minimal">Minimal</option>
+      <option value="spiral">Spiral</option>
+      <option value="geometric">Geometric</option>
+      <option value="organic">Organic</option>
+    </select>
+    <select id="materialFilter">
+      <option value="all">All Materials</option>
+      <option value="PLA">PLA</option>
+      <option value="PETG">PETG</option>
+      <option value="Resin">Resin</option>
+    </select>
+    <label class="price-label">
+      Max $<span id="priceValue">120</span>
+      <input id="priceFilter" type="range" min="20" max="120" value="120" />
+    </label>
+  </section>
+
+  <main class="product-grid" id="productGrid"></main>
+
+  <!-- Cart Drawer -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="close-cart" id="closeCart">✕</button>
+    </div>
+    <ul class="cart-items" id="cartItems"></ul>
+    <div class="cart-footer">
+      <p class="cart-total">Total: $<span id="total">0.00</span></p>
+      <form id="checkoutForm">
+        <input required id="name" placeholder="Full name" />
+        <input required id="email" type="email" placeholder="Email address" />
+        <input required id="address" placeholder="Shipping address" />
+        <button type="submit" class="checkout-btn">Place Order</button>
+      </form>
+      <p class="status-msg" id="status"></p>
+    </div>
+  </aside>
+
+  <!-- Product Card Template -->
+  <template id="cardTemplate">
+    <article class="product-card">
+      <div class="card-image-wrap">
+        <img class="card-img" src="" alt="" loading="lazy" />
+        <span class="card-badge"></span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title"></h3>
+        <p class="card-meta"></p>
+        <p class="card-price"></p>
+        <div class="card-options">
+          <select class="color"></select>
+          <select class="size">
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
