@@ -27,7 +27,7 @@ const vases = [
   {
     id: 6, name: 'Zen Curve', style: 'minimal', material: 'PLA', basePrice: 29,
     colors: ['Cream','Navy','Terracotta'], badge: 'Bestseller',
-    image: 'https://images.pexels.com/photos/3373736/pexels-photo-3373736.jpeg?auto=compress&cs=tinysrgb&w=600&h=520&fit=crop'
+    image: 'images/zen-curve.jpg'
   }
 ];
 
