@@ -74,7 +74,7 @@ body {
   padding: 2rem;
   background:
     linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(15,15,15,1)),
-    url('https://image.pollinations.ai/prompt/collection%20of%20beautiful%203D%20printed%20vases%20arranged%20on%20a%20dark%20studio%20surface%2C%20moody%20lighting%2C%20luxury%20product%20photography?width=1400&height=900&nologo=true&seed=999') center/cover no-repeat;
+    url('https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=1400&h=900&fit=crop') center/cover no-repeat;
 }
 
 .hero-content h1 {
