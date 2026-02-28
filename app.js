@@ -7,17 +7,17 @@ const vases = [
   {
     id: 2, name: 'Helix Bloom', style: 'spiral', material: 'PETG', basePrice: 48,
     colors: ['Teal','Amber','Graphite'], badge: 'Popular',
-    image: 'https://images.pexels.com/photos/2623358/pexels-photo-2623358.jpeg?auto=compress&cs=tinysrgb&w=600&h=520&fit=crop'
+    image: 'images/helix-bloom.jpg'
   },
   {
     id: 3, name: 'Prism Nest', style: 'geometric', material: 'PLA', basePrice: 39,
     colors: ['Ivory','Olive','Slate'], badge: 'New',
-    image: 'https://images.pexels.com/photos/4207892/pexels-photo-4207892.jpeg?auto=compress&cs=tinysrgb&w=600&h=520&fit=crop'
+    image: 'images/prism-nest.jpg'
   },
   {
     id: 4, name: 'Coral Flow', style: 'organic', material: 'Resin', basePrice: 74,
     colors: ['Pearl','Rose','Smoke'], badge: 'Premium',
-    image: 'images/coral-flow.jpg'
+    image: 'https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&w=600&h=520&fit=crop'
   },
   {
     id: 5, name: 'Facet Tower', style: 'geometric', material: 'PETG', basePrice: 56,
