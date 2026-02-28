@@ -22,7 +22,7 @@ const vases = [
   {
     id: 5, name: 'Facet Tower', style: 'geometric', material: 'PETG', basePrice: 56,
     colors: ['Cobalt','Lime','Silver'], badge: 'New',
-    image: 'https://images.pexels.com/photos/1070345/pexels-photo-1070345.jpeg?auto=compress&cs=tinysrgb&w=600&h=520&fit=crop'
+    image: 'images/facet-tower.jpg'
   },
   {
     id: 6, name: 'Zen Curve', style: 'minimal', material: 'PLA', basePrice: 29,
